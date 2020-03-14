@@ -8,7 +8,7 @@ const Card = () => {
 		questions:
 			"If you write a book about failure and it doesn't sell ,is it called success ?",
 		answer: [
-			{ title: "Definitely a Sucess", option: "yes", count: 80 },
+			{ title: "Definitely a Success", option: "yes", count: 80 },
 			{ title: "No", option: "no", count: 40 },
 			{
 				title: "Only if it's in the To section of the library",
