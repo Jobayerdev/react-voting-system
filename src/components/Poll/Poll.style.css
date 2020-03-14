@@ -1,0 +1,78 @@
+.poll-item {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 90px;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0px 20px;
+	border-bottom: 1px solid #f7f7f7;
+}
+.mark {
+	display: flex;
+	margin-bottom: 12px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+}
+
+.vote-icon {
+	width: 20%;
+	text-align: right;
+	display: flex;
+	justify-content: end;
+	flex-direction: column;
+}
+.info i {
+	cursor: pointer;
+	color: #607d8b;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.info h4 {
+	color: #688489;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.vote-icon p {
+	font-size: 18px;
+	color: #537592;
+	font-weight: 600;
+	font-family: monospace, sans-serif;
+}
+.progress {
+	height: 10px;
+	width: 100%;
+	background: rebeccapurple;
+	border-radius: 10px;
+}
+
+.green {
+	background-color: #99e870;
+}
+
+.red {
+	background-color: #f4645d;
+}
+
+.no-comment {
+	background-color: #fe984f;
+}
+
+.progress-bg {
+	background: #f3f3f3;
+	border-radius: 10px;
+}
+
+i:hover {
+	color: red;
+}
+i {
+	transition: 0.2s all ease-in-out;
+}
